@@ -6,10 +6,14 @@
     <Copyright>Copyright 2020 - Trent Tobler (MIT Licence)</Copyright>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/trenttobler/FourierTransform</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/trenttobler/FourierTransform</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>fft, dft, mathematics, algorithms</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="LICENSE.txt">
+    <None Include="..\LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
