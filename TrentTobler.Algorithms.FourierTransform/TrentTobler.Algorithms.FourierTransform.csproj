@@ -10,6 +10,9 @@
     <RepositoryUrl>https://github.com/trenttobler/FourierTransform</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>fft, dft, mathematics, algorithms</PackageTags>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,6 +20,7 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+    <None Include="..\README.md" Link="README.md" />
   </ItemGroup>
 
 </Project>

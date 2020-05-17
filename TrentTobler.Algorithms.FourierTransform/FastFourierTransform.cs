@@ -201,6 +201,12 @@ namespace TrentTobler.Algorithms.FourierTransform
 			return result;
 		}
 
+		/// <summary>
+		/// Reverse the least significant bits in an int value.
+		/// </summary>
+		/// <param name="n">The int value for bits to reverse.</param>
+		/// <param name="bitCount">The number of bits to reverse.</param>
+		/// <returns></returns>
 		public static int ReverseBits( int n, int bitCount )
 		{
 			var r = n << ( 32 - bitCount );
